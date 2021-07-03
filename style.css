@@ -6,16 +6,21 @@ body{
 h1{
     font-size: 50px;
 }
-section{
+h2{
+    font-size: 35px;
+}
+.flexible-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .half_witdh{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 3%;
 }
 .half_witdh img{
     width: 80%;
 }
+
 .link_button{
     text-decoration: none;
     background-image: linear-gradient(#e2980e,red);
@@ -30,4 +35,38 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.experience-item{
+   width: 40%;
+   margin-left: 5%;
+   margin-right:5%;
+   padding: 20px;
+   border-radius: 10ps;
+   box-shadow: 10px 10px 40px rgb(156, 156, 156);
+   border-left: 10px solid black;
+
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#baby-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,skyblue);
+    border-image-slice: 1;
+}
+#full-stack-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
