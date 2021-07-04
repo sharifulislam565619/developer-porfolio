@@ -15,7 +15,7 @@ h2{
 }
 .half_witdh{
     width: 50%;
-    padding-left: 3%;
+    padding-left: 7%;
 }
 .half_witdh img{
     width: 80%;
@@ -47,10 +47,13 @@ h2{
    margin-left: 5%;
    margin-right:5%;
    padding: 20px;
-   border-radius: 10ps;
+   border-radius: 10px;
    box-shadow: 10px 10px 40px rgb(156, 156, 156);
    border-left: 10px solid black;
-
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
 }
 .experience-area{
     background-image: url(images/exp-bg.png);
